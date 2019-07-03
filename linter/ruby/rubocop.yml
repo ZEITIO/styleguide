@@ -1,0 +1,48 @@
+Layout/SpaceBeforeBlockBraces:
+  EnforcedStyle: space
+  EnforcedStyleForEmptyBraces: space
+
+Layout/IndentHash:
+  EnforcedStyle: consistent
+
+Layout/SpaceInLambdaLiteral:
+  EnforcedStyle: require_space
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/MultilineTernaryOperator:
+  Enabled: false
+
+Style/Lambda:
+  EnforcedStyle: literal
+
+Style/NumericPredicate:
+  EnforcedStyle: comparison
+
+Style/RaiseArgs:
+  EnforcedStyle: compact
+
+Lint/UnusedMethodArgument:
+  AllowUnusedKeywordArguments: true
+
+Lint/UselessAccessModifier:
+  Enabled: false
+
+Naming/AccessorMethodName:
+  Enabled: false
+
+Naming/FileName:
+  Enabled: false
+
+Naming/PredicateName:
+  Enabled: false
+
+Naming/UncommunicativeMethodParamName:
+  MinNameLength: 2
